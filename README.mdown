@@ -1,10 +1,8 @@
 # node-fmt
 
-Provides:
-
-  * an `sprintf` function
-  * convenience `printf` and `putsf` functions
-  * a `convert` function like Do
+  * an `sprintf` function.
+  * convenience `printf` and `putsf` functions.
+  * a `convert` function like [Do](http://github.com/creationix/do).
 
 ## Example
 
