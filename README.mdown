@@ -1,0 +1,25 @@
+# node-fmt
+
+Provides:
+
+  * an `sprintf` function
+  * convenience `printf` and `putsf` functions
+  * a `convert` function like Do
+
+## Example
+
+    var fmt = require('./fmt');
+    fmt.putsf('%s %s!', 'Hello', 'World');
+
+## Convert Example
+
+    var fmt = require('./fmt');
+    var sys = fmt.convert(require('sys'), ['puts', 'print']);
+    sys.puts('%s %s!', 'Hello', 'World');
+
+## More Information and License
+
+The implementation of `sprintf` comes from the [php.js][] implementation. This
+allows the MIT or GPL licenses.
+
+[php.js]: http://phpjs.org/functions/sprintf:522
